@@ -18,5 +18,6 @@ script:
   - curl -I 127.0.0.1:80
   - python .travis/tests.py
 
-notifications:
-  slack: kissjared:sKjBTxRxRkqNzCV5NFyP
+dist: trusty
+#notifications:
+#  slack: kissjared:sKjBTxRxRkqNzCV5NFyP
