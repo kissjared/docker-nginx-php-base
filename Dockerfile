@@ -1,4 +1,5 @@
-FROM alpine
+#FROM alpine
+FROM kissjared/docker-alpine-base
 
 MAINTAINER weiboyi lijie1@weiboyi.com
 
@@ -14,7 +15,7 @@ RUN PHP_CONFIG="--with-php-config=/usr/bin/php-config5" \
     MQC_PATH="/usr/local/rabbitmq-c-0.8.0" \
     && apk add --update --no-cache \
             wget \
-            tzdata \
+#            tzdata \
             pcre-dev \
             build-base \
             autoconf \
@@ -107,7 +108,6 @@ RUN PHP_CONFIG="--with-php-config=/usr/bin/php-config5" \
             build-base \
             autoconf \
             libtool \
-            tzdata \
     # Cleanup after phpizing
     && rm -fr /usr/include/php \
     && rm -fr /usr/lib/php/build \
