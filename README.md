@@ -1,5 +1,5 @@
 # Docker Nginx And PHP for Alpine
-![Travis](https://travis-ci.org/kissjared/docker-nginx-php-base.svg?branch=master)
+[![Build Status](https://travis-ci.org/kissjared/docker-nginx-php-base.svg?branch=master)](https://travis-ci.org/kissjared/docker-nginx-php-base)
 
 Github: https://github.com/kissjared/docker-nginx-php-base.git
 ## To Build
