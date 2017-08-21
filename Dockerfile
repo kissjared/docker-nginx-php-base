@@ -15,7 +15,6 @@ RUN PHP_CONFIG="--with-php-config=/usr/bin/php-config5" \
     MQC_PATH="/usr/local/rabbitmq-c-0.8.0" \
     && apk add --update --no-cache \
             wget \
-#            tzdata \
             pcre-dev \
             build-base \
             autoconf \
