@@ -9,8 +9,6 @@ ENV APP_ROOT="/opt" \
     MQC_URL="https://github.com/alanxz/rabbitmq-c/releases/download/v0.8.0/rabbitmq-c-0.8.0.tar.gz" \
     MQ_URL="http://pecl.php.net/get/amqp-1.9.0.tgz"
 
-#COPY soft/* /mnt/
-
 RUN PHP_CONFIG="--with-php-config=/usr/bin/php-config5" \
     MQC_PATH="/usr/local/rabbitmq-c-0.8.0" \
     && apk add --update --no-cache \
