@@ -18,6 +18,5 @@ script:
   - curl -I 127.0.0.1:80
   - python .travis/tests.py
 
-dist: precise
 #notifications:
 #  slack: kissjared:sKjBTxRxRkqNzCV5NFyP
