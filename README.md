@@ -1,7 +1,4 @@
 # Docker Nginx And PHP for Alpine
-![docker hub](https://img.shields.io/docker/pulls/kissjared/docker-nginx-php-fpm-base.svg?style=flat-square)
-![docker hub](https://img.shields.io/docker/stars/kissjared/docker-nginx-php-fpm-base.svg?style=flat-square)
-![Travis](https://img.shields.io/travis/kissjared/docker-nginx-php-base.svg?style=flat-square)
 
 Github: https://github.com/kissjared/docker-nginx-php-base.git
 ## To Build
